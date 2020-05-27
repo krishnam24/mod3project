@@ -1,4 +1,59 @@
+#header-nav{
+	background-color:grey;
+	color:black;
+	border-radius:0;
+	border:2px solid black;
+	height:100px;
+}
+#food{
+color:black;
+}
+*
+{
+	margin:0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+.navbar-header button.navbar-toggle {
+  margin-top:100px;
+}
+#food1{
+	margin-top:25px;
+	margin-top:50px;
+}
+#nav-list li{
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+}
+h1{
+	margin-bottom:40px;
+}
+h2{
+	text-align:center;
+	font-weight: bold;
+}
+h3{
+	text-align:center;
+	padding-top:10px;
+}
+.container div.chicken,div.beef,div.sushi{
+	background-color:grey;
+	border-radius:10px;
+	margin:10px;
+}
 
-#header-nav {
-	color:grey;
+p{
+	padding:10px;
+	color:black;
+}
+button:visited{
+	border:white;
+}
+
+@media (max-width:768px){
+	#food10{
+		margin-top:160px;
+	}
 }
